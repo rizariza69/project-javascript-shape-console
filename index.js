@@ -12,3 +12,12 @@ console.log(rectangleArea);
 console.log(`${rectangleArea} = ${rectangleWidth} * ${rectangleLength}`)
 
 // Feel free to have some experiments with variety of shape formulas
+
+
+const radius = 10
+
+const circleArea = Math.PI * (radius ** 2)
+
+console.log(circleArea);
+
+console.log(`${circleArea} = ${Math.PI} * (${radius ** 2})`);
